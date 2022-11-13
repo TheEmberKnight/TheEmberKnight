@@ -51,7 +51,8 @@ body{
     font-weight: lighter;
   
     margin: 380px auto 47px;
-    width: 1000px;
+    width: 67%;
+    min-width: 300px;
     height: 176px;
     background-color: rgba(0, 0,0, 0.1);
     border: solid 2px #adacc4;
