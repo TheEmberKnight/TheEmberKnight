@@ -1,0 +1,223 @@
+@charset "UTF-8";
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+
+
+/* reset */
+*{
+    box-sizing: border-box;
+    font-family: 'Pretendard';
+}
+
+body{
+    color: #fff;
+}
+
+
+.bgOrther{
+    background-image: url("../img/메인배경숲.png");
+    background-repeat: no-repeat; /* 배경이미지X */
+    background-size: cover; /* 요소를 비율에 맞게 커버 */
+    background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+    background-attachment: fixed; /* 스크롤바 움직일때 이미지가 따라다님 */
+    min-height: 730px;
+}
+
+
+/* header */
+#gnb{
+    padding: 25px 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+} 
+#gnb ul{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#gnb ul li a img{
+    height: 49px;
+}
+#audio{
+    width: 250px;
+    height: 25px;
+}
+
+
+/* talkbox */
+#talkbox{  
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: lighter;
+  
+    margin: 380px auto 47px;
+    width: 1000px;
+    height: 176px;
+    background-color: rgba(0, 0,0, 0.1);
+    border: solid 2px #adacc4;
+    padding: 64px;
+    color: #ebe8ef;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+/* cartoon */
+#cartoonContainer{
+    width: 860px;
+    margin: 110px auto;
+}
+#cartoonContainer .des{
+    display: flex;
+    padding-bottom: 25px;
+}
+#cartoonContainer .des div p{
+    font-weight: 300;
+    font-size: 0.9em;
+    line-height: 22px;
+}
+#cartoonContainer .des h6{
+    font-weight: bold;
+    font-size: 1.2em;
+    
+    padding-left: 41%;
+}
+#cartoonContainer img{
+    width: 100%;
+}
+#cartoonContainer img:last-child{
+    margin-bottom: 200px;
+}
+
+
+/* illust */
+.pl{
+    font-family: 'Pretendard';
+    font-weight: 200;
+    text-align: center;
+    margin: 110px auto 140px;
+}
+#illustContainer{
+    width: 920px;
+    margin: 110px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#illustContainer .illustBox .illustBorder{
+    width: 416px;
+    height: 416px;
+    
+    border: 1px solid #fff;
+    filter: grayscale(100%);
+}
+#illustContainer .illustBox .illustBorder div{
+    width: 416px;
+    height: 416px;
+    
+    background-size: cover;
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+#illustContainer .illustBox .des{
+    margin-top: 25px;
+    margin-bottom: 180px;
+}
+#illustContainer .illustBox .des p{
+    font-weight: 300;
+    font-size: 0.9em;
+    line-height: 22px;
+}
+#illustContainer .sec{
+    margin-top: 340px;
+}
+
+
+.art1{
+    background-image: url(../img/art/1.png);
+}
+
+.art2{
+    background-image: url(../img/art/2.png);
+}
+
+.art3{
+    background-image: url(../img/art/3.png);
+}
+
+.art4{
+    background-image: url(../img/art/4.png);
+}
+
+.art5{
+    background-image: url(../img/art/5.png);
+}
+
+.art6{
+    background-image: url(../img/art/6.png);
+}
+
+.art7{
+    background-image: url(../img/art/7.png);
+}
+
+.art8{
+    background-image: url(../img/art/8.png);
+}
+
+.art9{
+    background-image: url(../img/art/9.png);
+}
+
+.art10{
+    background-image: url(../img/art/10.png);
+}
+
+.art11{
+    background-image: url(../img/art/11.png);
+}
+
+.art12{
+    background-image: url(../img/art/12.png);
+}
+
+.art13{
+    background-image: url(../img/art/13.png);
+}
+
+.art14{
+    background-image: url(../img/art/14.png);
+}
+
+.art15{
+    background-image: url(../img/art/15.png);
+}
+
+.art16{
+    background-image: url(../img/art/16.png);
+}
+
+.art17{
+    background-image: url(../img/art/17.png);
+}
+
+.art18{
+    background-image: url(../img/art/18.png);
+}
+
+
+/* top */
+#top{
+    position : fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+
+/* hide */
+#illustHide{
+    display: none;
+}
+#cartoonHide{
+    display: none;
+}
